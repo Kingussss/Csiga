@@ -1,0 +1,58 @@
+/* Alapok és háttér */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f4f0; /* Halványzöld háttér */
+    color: #2e4a2e;
+    text-align: center;
+}
+
+/* Fejléc */
+header {
+    background-color: #6d8245; /* Levélzöld */
+    color: white;
+    padding: 3rem 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Tartalmi kártya */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    max-width: 600px;
+}
+
+.snail-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Lábjegyzet */
+footer {
+    background-color: #3e2723; /* Földbarna */
+    color: #d7ccc8;
+    padding: 1.5rem 0;
+    font-size: 0.85rem;
+}
