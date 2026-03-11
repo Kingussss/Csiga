@@ -10,7 +10,7 @@ CSS
 /* Az Italic Light verzió */
 @font-face {
     font-family: 'ObviouslyExtended';
-    src: url('fonts/obviously-extended-light-italic.woff2') format('woff2');
+    src: ObviouslyExtd-LightItalic.otf
     font-weight: 300;
     font-style: italic;
 }
