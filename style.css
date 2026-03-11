@@ -13,7 +13,7 @@ body {
 
 /* Fejléc */
 header {
-    background-color: #6d8245; /* Levélzöld */
+    background-color: #3BF58D;
     color: white;
     padding: 3rem 1rem;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -29,7 +29,7 @@ main {
 }
 
 .card {
-    background: white;
+    background: #754844;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
@@ -51,8 +51,8 @@ p {
 
 /* Lábjegyzet */
 footer {
-    background-color: #3e2723; /* Földbarna */
-    color: #d7ccc8;
+    background-color: #384B40;
+    color: #3BF58D;
     padding: 1.5rem 0;
     font-size: 0.85rem;
 }
