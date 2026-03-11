@@ -2,7 +2,7 @@ CSS
 /* A sima (Regular) verzió */
 @font-face {
     font-family: 'ObviouslyExtended';
-    src: url('fonts/obviously-extended-regular.woff2') format('woff2');
+    src: ObviouslyExtd-Regular.otf
     font-weight: normal;
     font-style: normal;
 }
