@@ -1,18 +1,34 @@
+CSS
+/* A sima (Regular) verzió */
+@font-face {
+    font-family: 'ObviouslyExtended';
+    src: url('fonts/obviously-extended-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Az Italic Light verzió */
+@font-face {
+    font-family: 'ObviouslyExtended';
+    src: url('fonts/obviously-extended-light-italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
 /* Alapok és háttér */
 body {
-    font-family: 'Obviously', ObviouslyExtd, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    /* Az egészet az alap betűtípusra állítjuk */
+    font-family: 'ObviouslyExtended', sans-serif;
     background-color: #F50022;
-    color: #FFFFFF;
+    color: white;
+    margin: 0;
     text-align: center;
 }
 
 /* Fejléc */
 header {
+    font-weight: normal; /* Ez lesz az Extended Regular */
+    font-size: 3rem;
     background-color: #3BF58D;
     color: white;
     padding: 3rem 1rem;
@@ -44,9 +60,11 @@ main {
 }
 
 p {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    font-style: regular;
+    /* A mondatodhoz beállítjuk a Light Italic verziót */
+    font-family: 'ObviouslyExtended', sans-serif;
+    font-weight: 300; /* Light */
+    font-style: italic; /* Italic */
+    font-size: 2.5rem;
 }
 
 /* Lábjegyzet */
